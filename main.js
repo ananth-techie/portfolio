@@ -46,9 +46,9 @@ const portfolioData = {
 
     badges: [
         {
-            name: "JavaScript Algorithms and Data Structures",
-            imageUrl: "https://via.placeholder.com/150/FFD700/000000?text=JS+Algo",
-            altText: "FreeCodeCamp JavaScript Algorithms and Data Structures Badge",
+            name: "Google Cloud Cybersecurity Certificate",
+            imageUrl: "https://images.credly.com/size/220x220/images/505080ad-3731-4b1d-98df-347655a45750/image.png",
+            altText: "Google Cloud Cybersecurity Certificate",
         },
         {
             name: "Responsive Web Design",
