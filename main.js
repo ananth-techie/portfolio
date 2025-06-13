@@ -11,33 +11,33 @@ const portfolioData = {
     youtubeVideos: [
         {
             id: "GZYZxirelwY", // Big Buck Bunny test video
-            title: "PS 1 FULL JUKEBOX TRANSLATION",
-            journey: "video showcases the epic journey of Ponniyin Selvan: I, bringing the grandeur of the Chola dynasty to life through stunning visuals and mesmerizing music.",
+            title: "Ponniyin Selvan Part-1 | Full Jukebox | English Translation",
+            journey: "I translated the full jukebox of Ponniyin Selvan: Part 1 Tamil songs, carefully assigning one meticulously chosen image and providing English subtitles to ensure the essence of the lyrics is preserved.",
             description: "From the majestic Ponni Nadhi to the intense Devaralan Aattam, each song is a window into the grandeur of the Chola dynasty. The film’s music, composed by A.R. Rahman, is not just a soundtrack—it’s a narrative woven in melody, bringing the characters and their journeys to life.I took great care in editing and presenting this video, ensuring that the visuals and translations complement each other seamlessly. This project is more than just a translation—it’s my way of celebrating Tamil heritage, cinematic brilliance, and musical storytelling."
         },
         {
             id: "zzr1LndF4bs", // Second video
-            title: "Classical Ciphers: Caesar to Vigenère",
-            journey: "Here I take you through the historical journey of classical ciphers, showing how each one built upon the previous to create more secure methods of communication. The evolution is truly fascinating!",
-            description: "Explore the evolution of classical encryption techniques, from the simple Caesar cipher to the more sophisticated Vigenère cipher, with practical examples and breaking techniques."
+            title: "Veera Raja Veera | Ponniyin Selvan Part-2 | Video Song with English Translation",
+            journey: "I spent over six hours compiling clips from both sequels to create a seamless visual flow that enhances the storytelling. Every subtitle segment was meticulously timed to match the film’s grandeur and the song’s emotional depth. Beyond just translation, this project is a tribute to the artistry, history, and cinematic brilliance of Ponniyin Selvan.",
+            description: "This video is a passion project that took me over six hours to bring together, carefully compiling clips from both sequels of Ponniyin Selvan to create a visually rich tribute. Every scene was selected with intent, ensuring it complements the grandeur of Veera Raja Veera and enhances the storytelling. Beyond just translation, I meticulously segmented and synchronized the subtitles, making sure every word aligns with the emotion and rhythm of the song."
         },
         {
             id: "bI_uqp-98qU", // Third video  
-            title: "Modern Encryption: AES and RSA Explained",
-            journey: "This was one of my most challenging videos to create, as I wanted to explain complex mathematical concepts in an accessible way. The goal was to demystify how modern encryption actually works under the hood.",
-            description: "Deep dive into Advanced Encryption Standard (AES) and RSA encryption, explaining the mathematical principles and implementation details that secure most of our digital communications today."
+            title: "Anbe Anbe | Jeans | Video Song with English Translation",
+            journey: "This was one of my most challenging videos to create, as I wanted to include a missed clip in the remastered video.",
+            description: "This video presents the song Anbe Anbe from the Tamil movie Jeans, enhanced with lossless audio for superior sound quality and better video resolution for a visually refined experience. I meticulously translated the lyrics into English, ensuring that the essence and emotion of the song are preserved for a wider audience. This project is a tribute to the beauty of Tamil music and storytelling, delivering a seamless blend of audio, visuals, and translation."
         },
         {
             id: "u7qwgUKICEk", // Fourth video
-            title: "Blockchain Cryptography and Digital Signatures",
-            journey: "With the rise of cryptocurrencies, I felt it was important to explain how cryptography enables blockchain technology. This video connects traditional cryptographic concepts to modern applications.",
-            description: "Understanding how cryptographic hash functions, digital signatures, and merkle trees work together to create the security backbone of blockchain technologies and cryptocurrencies."
+            title: "Aga Naga | Ponniyin Selvan Part-2 | English Translation",
+            journey: "This video presents Aga Naga from Ponniyin Selvan Part-2, enhanced with static images taken from official lyric video carefully selected to complement the song’s essence. I applied fade-in and fade-out transitions to align with the lyrics, creating a seamless visual flow. The English translation ensures that the beauty and meaning of the lyrics reach a wider audience, preserving the depth of PS2's musical storytelling.",
+            description: "With Aga Naga from Ponniyin Selvan: II, I wanted to create a visually immersive experience that complements the song’s essence. Using static images, I carefully selected visuals that resonate with the mood and emotion of the lyrics. The fade-in and fade-out transitions help maintain a smooth flow, aligning each moment with the song’s rhythm. Additionally, I provided a seamless English translation, ensuring that the beauty of the lyrics is accessible to a wider audience while preserving their depth and meaning."
         },
         {
             id: "XP-SWOokLzg", // Fifth video
-            title: "Password Security and Hashing Algorithms",
-            journey: "After seeing so many data breaches in the news, I wanted to create content that helps people understand why password security matters and how proper hashing can protect user data.",
-            description: "Learn about password hashing, salting, and key derivation functions. Understand why plain text passwords are dangerous and how proper security practices protect user credentials."
+            title: "Arabic Kuthu | Beast | English Translation",
+            journey: "Translating Arabic Kuthu was a fast-paced challenge, and within ten days of its lyric video release, I became the first to deliver an unofficial English translation. Determined to capture every detail, I went beyond just the direct lyrics—I decoded even the gibberish sections, thinking from the lyricist’s perspective to maintain the song’s energy.",
+            description: "This video presents my second version of the unofficial English translation of Arabic Kuthu, first delivered just ten days after its official lyric video release. I worked meticulously to refine my initial translation, ensuring every lyric, including gibberish sections, stayed true to the lyricist’s creative intent. My approach was more than just direct translation—it aimed to capture the rhythm and energy of the song. Having my work recognized on a website made this project a rewarding milestone in my dedication to precise and immersive musical translations."
         }
     ],
 
@@ -51,71 +51,15 @@ const portfolioData = {
             altText: "Google Cloud Cybersecurity Certificate",
             credlyUrl: "https://www.credly.com/badges/5c9b2c99-3194-4e34-98a0-8c0f8774f333/public_url",
         },
-        {
-            name: "Responsive Web Design",
-            imageUrl: "https://via.placeholder.com/150/8A2BE2/FFFFFF?text=RWD",
-            altText: "FreeCodeCamp Responsive Web Design Badge",
-        },
-        {
-            name: "Front End Development Libraries",
-            imageUrl: "https://via.placeholder.com/150/00CED1/FFFFFF?text=FE+Libs",
-            altText: "FreeCodeCamp Front End Development Libraries Badge",
-        },
-        {
-            name: "Full Stack Web Development",
-            imageUrl: "https://via.placeholder.com/150/FF4500/FFFFFF?text=Full+Stack",
-            altText: "Full Stack Web Development Badge",
-        },
-        {
-            name: "AWS Certified Cloud Practitioner",
-            imageUrl: "https://via.placeholder.com/150/FF9900/FFFFFF?text=AWS+CCP",
-            altText: "AWS Certified Cloud Practitioner Badge",
-        },
-        {
-            name: "Google Cloud Digital Leader",
-            imageUrl: "https://via.placeholder.co/150/4285F4/FFFFFF?text=GCDL",
-            altText: "Google Cloud Digital Leader Badge",
-        },
-        {
-            name: "Machine Learning Fundamentals",
-            imageUrl: "https://via.placeholder.co/150/32CD32/FFFFFF?text=ML+Fund",
-            altText: "Coursera ML Specialization",
-        },
-        {
-            name: "Python for Data Science",
-            imageUrl: "https://via.placeholder.co/150/1E90FF/FFFFFF?text=Python+DS",
-            altText: "IBM Data Science Professional Certificate",
-        },
     ],
 
     deployments: [
         {
-            title: "Interactive Quiz App",
-            image: "https://placehold.co/400x200/F0F4C3/4A5568?text=Interactive+Quiz+App",
+            title: "MINDMASH Quiz, Feedback, & Leaderboard Application",
+            image: "https://socialify.git.ci/ananth-techie/mindmash/image?language=1&owner=1&name=1&stargazers=1&theme=Light",
             description:
-                "A dynamic quiz application built with React, featuring multiple question types and real-time feedback. It demonstrates client-side routing and state management.",
-            githubRepoName: "interactive-quiz-app",
-        },
-        {
-            title: "Task Management Dashboard",
-            image: "https://placehold.co/400x200/E3F2FD/4A5568?text=Task+Manager",
-            description:
-                "A simple, responsive dashboard for managing daily tasks and projects, demonstrating efficient state management with Redux (or React Context).",
-            githubRepoName: "task-management-dashboard",
-        },
-        {
-            title: "Simple E-commerce Product Page",
-            image: "https://placehold.co/400x200/FCE4EC/4A5568?text=E-commerce+Page",
-            description:
-                "A responsive product display page simulating an e-commerce experience, focusing on clean UI, user interaction, and basic cart functionality.",
-            githubRepoName: "ecommerce-product-page",
-        },
-        {
-            title: "Weather Forecast App",
-            image: "https://placehold.co/400x200/D1C4E9/4A5568?text=Weather+App",
-            description:
-                "A sleek weather application fetching real-time data from an external API, displaying current conditions and a multi-day forecast with intuitive icons.",
-            githubRepoName: "weather-forecast-app",
+                "This repository showcases MINDMASH, a web app I built as Secretary for The Coders Club, MCE. It offers a dynamic quiz, feedback, and leaderboard, integrating with Google Sheets for data. Created via VibeCoding using Microsoft Copilot and Google Gemini.",
+            githubRepoName: "mindmash",
         },
     ],
 };
@@ -283,8 +227,6 @@ function populateVideos() {
     videosContainer.appendChild(viewChannelDiv);
 }
 
-// --- Badges Section Logic ---
-
 function populateBadges() {
     if (!badgesScrollContainer) return;
 
@@ -294,14 +236,17 @@ function populateBadges() {
         const badgeElement = document.createElement("div");
         badgeElement.className =
             "flex-none w-40 p-4 bg-white rounded-xl shadow-md flex flex-col items-center text-center hover:scale-105 transition-transform duration-300";
+
+        // Corrected innerHTML assignment
         badgeElement.innerHTML = `
-            innerHtmlContent = `
-    <a href="${badge.credlyUrl}" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center">
-        <img src="${badge.imageUrl}" alt="${badge.altText}" class="w-24 h-24 object-contain mb-2">
-        <p class="text-sm font-medium text-gray-800">${badge.name}</p>
-    </a>
-`;
+            <a href="${badge.credlyUrl || '#'}" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center">
+                <img src="${badge.imageUrl}" alt="${badge.altText}" class="w-24 h-24 object-contain mb-2">
+                <p class="text-sm font-medium text-gray-800">${badge.name}</p>
+            </a>
         `;
+        // Added a fallback for badge.credlyUrl in case it's missing,
+        // making the link '#' if no URL is provided.
+
         badgesScrollContainer.appendChild(badgeElement);
     });
 
@@ -312,35 +257,15 @@ function populateBadges() {
             badgeElement.className =
                 "flex-none w-40 p-4 bg-white rounded-xl shadow-md flex flex-col items-center text-center hover:scale-105 transition-transform duration-300";
             badgeElement.innerHTML = `
-                <img
-                    src="${badge.imageUrl}"
-                    alt="${badge.altText}"
-                    class="w-24 h-24 object-contain mb-3"
-                />
-                <p class="text-sm font-medium text-gray-800">${badge.name}</p>
+                <a href="${badge.credlyUrl || '#'}" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center">
+                    <img src="${badge.imageUrl}" alt="${badge.altText}" class="w-24 h-24 object-contain mb-3">
+                    <p class="text-sm font-medium text-gray-800">${badge.name}</p>
+                </a>
             `;
             badgesScrollContainer.appendChild(badgeElement);
         });
     }
 }
-
-function scrollBadges(direction) {
-    if (!badgesScrollContainer) return;
-    const scrollAmount = 200;
-
-    if (direction === "left") {
-        badgesScrollContainer.scrollBy({
-            left: -scrollAmount,
-            behavior: "smooth"
-        });
-    } else {
-        badgesScrollContainer.scrollBy({
-            left: scrollAmount,
-            behavior: "smooth"
-        });
-    }
-}
-
 // --- Deployments Section Logic ---
 
 function populateDeployments() {
