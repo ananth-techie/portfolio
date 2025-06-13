@@ -55,6 +55,13 @@ const portfolioData = {
 
     deployments: [
         {
+            title: "Portfolio",
+            image: "https://socialify.git.ci/ananth-techie/portfolio/image?language=1&owner=1&name=1&stargazers=1&theme=Light",
+            description:
+                "Welcome to my personal portfolio repository! This site serves as a dynamic showcase of my projects, skills, and journey as an aspiring full-stack developer. Here, you'll find a curated collection of my work, including web applications, technical certifications, and creative endeavors. This portfolio is built with modern web technologies, focusing on a clean, responsive design to provide an optimal viewing experience across all devices.",
+            githubRepoName: "portfolio",
+        },
+{
             title: "MINDMASH Quiz, Feedback, & Leaderboard Application",
             image: "https://socialify.git.ci/ananth-techie/mindmash/image?language=1&owner=1&name=1&stargazers=1&theme=Light",
             description:
