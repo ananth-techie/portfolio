@@ -1,10 +1,10 @@
 // --- Data for your Portfolio Sections ---
 
 const portfolioData = {
-    yourName: "Aditya Kumar", // Replace with your actual name
-    githubUsername: "adityakumar", // Replace with your GitHub username
-    linkedinProfile: "adityakumar", // Replace with your LinkedIn profile ID
-    emailAddress: "adityakumar@example.com", // Replace with your email
+    yourName: "Ananth S", // Replace with your actual name
+    githubUsername: "ananth-techie", // Replace with your GitHub username
+    linkedinProfile: "ananth-techie", // Replace with your LinkedIn profile ID
+    emailAddress: "ananth.fullstack@gmail.com", // Replace with your email
 
     // --- YOUTUBE VIDEO CONFIGURATION FOR @sadeciphers ---
     // NOTE: These are actual video IDs from the @sadeciphers channel
@@ -12,8 +12,8 @@ const portfolioData = {
         {
             id: "GZYZxirelwY", // Big Buck Bunny test video
             title: "PS 1 FULL JUKEBOX TRANSLATION",
-            journey: "This video explores the fascinating world of cryptography, starting from basic concepts and building up to more complex encryption methods. I dive deep into the mathematical foundations that make modern security possible.",
-            description: "A comprehensive introduction to cryptographic principles, covering symmetric and asymmetric encryption, hash functions, and their real-world applications in securing digital communications."
+            journey: "video showcases the epic journey of Ponniyin Selvan: I, bringing the grandeur of the Chola dynasty to life through stunning visuals and mesmerizing music.",
+            description: "From the majestic Ponni Nadhi to the intense Devaralan Aattam, each song is a window into the grandeur of the Chola dynasty. The film’s music, composed by A.R. Rahman, is not just a soundtrack—it’s a narrative woven in melody, bringing the characters and their journeys to life.I took great care in editing and presenting this video, ensuring that the visuals and translations complement each other seamlessly. This project is more than just a translation—it’s my way of celebrating Tamil heritage, cinematic brilliance, and musical storytelling."
         },
         {
             id: "zzr1LndF4bs", // Second video
@@ -42,13 +42,14 @@ const portfolioData = {
     ],
 
     // Replace with actual @sadeciphers channel playlist ID if available
-    youtubePlaylistId: "PLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    youtubePlaylistId: "PLWg6vOdoKgiINExBcL96H40WmG6PF-tSa",
 
     badges: [
         {
             name: "Google Cloud Cybersecurity Certificate",
             imageUrl: "https://images.credly.com/size/220x220/images/505080ad-3731-4b1d-98df-347655a45750/image.png",
             altText: "Google Cloud Cybersecurity Certificate",
+            credlyUrl: "https://www.credly.com/badges/5c9b2c99-3194-4e34-98a0-8c0f8774f333/public_url",
         },
         {
             name: "Responsive Web Design",
@@ -294,12 +295,12 @@ function populateBadges() {
         badgeElement.className =
             "flex-none w-40 p-4 bg-white rounded-xl shadow-md flex flex-col items-center text-center hover:scale-105 transition-transform duration-300";
         badgeElement.innerHTML = `
-            <img
-                src="${badge.imageUrl}"
-                alt="${badge.altText}"
-                class="w-24 h-24 object-contain mb-3"
-            />
-            <p class="text-sm font-medium text-gray-800">${badge.name}</p>
+            innerHtmlContent = `
+    <a href="${badge.credlyUrl}" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center">
+        <img src="${badge.imageUrl}" alt="${badge.altText}" class="w-24 h-24 object-contain mb-2">
+        <p class="text-sm font-medium text-gray-800">${badge.name}</p>
+    </a>
+`;
         `;
         badgesScrollContainer.appendChild(badgeElement);
     });
