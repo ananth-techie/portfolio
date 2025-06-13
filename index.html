@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio - [Your Name]</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-800 font-sans">
+
+    <header id="header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-900 cursor-pointer" onclick="scrollToSection('home')">
+                [Your Name]
+            </div>
+            <ul class="flex space-x-6">
+                <li><button onclick="scrollToSection('home')" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium" data-section="home">Home</button></li>
+                <li><button onclick="scrollToSection('about')" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium" data-section="about">About</button></li>
+                <li><button onclick="scrollToSection('experience')" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium" data-section="experience">Experience</button></li>
+                <li><button onclick="scrollToSection('hobbies')" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium" data-section="hobbies">Hobbies</button></li>
+                <li><button onclick="scrollToSection('badges')" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium" data-section="badges">Badges</button></li>
+                <li><button onclick="scrollToSection('deployments')" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-200 font-medium" data-section="deployments">Deployments</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="h-screen flex items-center justify-center text-center bg-gradient-to-br from-blue-50 to-indigo-100">
+            <div class="max-w-3xl px-6 py-12 rounded-2xl">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight">
+                    Hello, I'm <span class="text-blue-600">[Your Name]</span>.
+                </h1>
+                <p class="mt-6 text-xl md:text-2xl text-gray-700">
+                    A passionate developer building elegant and efficient solutions.
+                </p>
+                <button
+                    onclick="scrollToSection('about')"
+                    class="mt-10 px-8 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition-transform transform hover:scale-105 shadow-lg"
+                >
+                    Learn More
+                </button>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center gap-10">
+                    <div class="w-full md:w-1/3 flex justify-center">
+                        <img
+                            src="https://placehold.co/250x250/E0E7FF/4A5568?text=Your+Photo"
+                            alt="Your Profile"
+                            class="rounded-full shadow-xl object-cover w-60 h-60"
+                        />
+                    </div>
+                    <div class="w-full md:w-2/3 text-lg text-gray-700 leading-relaxed">
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. I'm always eager to learn new technologies and apply creative solutions to challenging problems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Experience</h2>
+                <div class="relative border-l-2 border-blue-200 pl-8">
+                    <div class="mb-10 p-6 bg-white rounded-xl shadow-md transition-transform transform hover:scale-[1.02] duration-300 relative">
+                        <div class="timeline-dot"></div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Software Development Intern</h3>
+                        <p class="text-blue-600 font-medium mb-1">Tech Solutions Inc. | Jan 2023 - Present</p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Contributed to developing responsive web applications, learning best practices in code quality and performance optimization. Collaborated with senior engineers on various features.
+                        </p>
+                    </div>
+
+                    <div class="mb-10 p-6 bg-white rounded-xl shadow-md transition-transform transform hover:scale-[1.02] duration-300 relative">
+                        <div class="timeline-dot"></div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Frontend Development Intern</h3>
+                        <p class="text-blue-600 font-medium mb-1">Creative Designs Co. | Jun 2021 - Dec 2022</p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Assisted in UI/UX development, gaining hands-on experience with modern frontend frameworks and design principles. Participated in daily stand-ups and code reviews.
+                        </p>
+                    </div>
+
+                    <div class="mb-10 p-6 bg-white rounded-xl shadow-md transition-transform transform hover:scale-[1.02] duration-300 relative">
+                        <div class="timeline-dot"></div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Intern</h3>
+                        <p class="text-blue-600 font-medium mb-1">Startup X | May 2021 - Aug 2021</p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Assisted in backend API development and database management. Gained hands-on experience in agile methodologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="py-20 bg-white">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Hobbies & Creations</h2>
+                <p class="text-lg text-gray-700 text-center mb-10">
+                    Beyond coding, I love exploring cryptography and ciphers! Check out my YouTube videos where I dive deep into the fascinating world of encryption and security.
+                </p>
+
+                <div id="videos-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                </div>
+            </div>
+        </section>
+
+        <section id="badges" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">My Achievements & Badges</h2>
+                <p class="text-lg text-gray-700 text-center mb-10">
+                    Here are some of the badges and certifications I've earned, showcasing my commitment to continuous learning and skill development:
+                </p>
+                <div class="flex items-center justify-center space-x-4">
+                    <button
+                        onclick="scrollBadges('left')"
+                        class="p-2 rounded-full bg-blue-100 hover:bg-blue-200 transition-colors duration-200 shadow-md flex-shrink-0"
+                        aria-label="Scroll badges left"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8L8 12L12 16"/><path d="M16 12H8"/></svg>
+                    </button>
+
+                    <div id="badges-scroll" class="flex overflow-x-auto py-4 no-scrollbar space-x-6">
+                    </div>
+
+                    <button
+                        onclick="scrollBadges('right')"
+                        class="p-2 rounded-full bg-blue-100 hover:bg-blue-200 transition-colors duration-200 shadow-md flex-shrink-0"
+                        aria-label="Scroll badges right"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16L16 12L12 8"/><path d="M8 12H16"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="deployments" class="py-20 bg-white">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">GitHub Deployments</h2>
+                <p class="text-lg text-gray-700 text-center mb-10">
+                    Here are some of my projects deployed directly from GitHub repositories, showcasing my practical development skills.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg mb-4">Let's Connect!</p>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="https://github.com/[YourGitHubUsername]" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-300 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/[YourLinkedInProfile]" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-300 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="mailto:[YourEmailAddress]" class="social-icon text-gray-300 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </a>
+            </div>
+            <p class="text-sm text-gray-400">&copy; <span id="current-year"></span> [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="fixed inset-0 bg-black bg-opacity-75 backdrop-blur-sm flex items-center justify-center z-50 p-4 hidden">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col lg:flex-row transform scale-95 opacity-0 transition-all duration-300">
+            <button
+                onclick="closeVideoModal()"
+                class="absolute top-4 right-4 text-gray-700 hover:text-gray-900 z-10 p-2 rounded-full bg-white hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+
+            <div class="w-full lg:w-2/3 bg-gray-900 flex-shrink-0">
+                <div class="aspect-video w-full h-full">
+                    <iframe
+                        id="modal-video-frame"
+                        width="100%"
+                        height="100%"
+                        src=""
+                        title="Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        class="rounded-tl-xl lg:rounded-bl-xl lg:rounded-tr-none rounded-t-xl"
+                    ></iframe>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/3 p-6 flex flex-col justify-center overflow-y-auto bg-gray-50">
+                <h3 id="modal-video-title" class="text-2xl font-bold text-gray-900 mb-4"></h3>
+                <div class="space-y-4">
+                    <p id="modal-video-journey" class="text-gray-700 text-sm leading-relaxed bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500"></p>
+                    <p id="modal-video-description" class="text-gray-600 text-sm leading-relaxed"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

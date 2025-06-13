@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-with-video-modal",
+  "version": "1.0.0",
+  "description": "A beautiful portfolio website with YouTube video modal integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server .",
+    "start": "npx live-server .",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx live-server ."
+  },
+  "keywords": [
+    "portfolio",
+    "youtube",
+    "video",
+    "modal",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {}
+}
