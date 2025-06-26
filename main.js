@@ -51,6 +51,12 @@ const portfolioData = {
             altText: "Google Cloud Cybersecurity Certificate",
             credlyUrl: "https://www.credly.com/badges/5c9b2c99-3194-4e34-98a0-8c0f8774f333/public_url",
         },
+        {
+            name: "Prompt Design in Vertex AI Skill Badge",
+            imageUrl: "https://images.credly.com/images/cef82b2e-970a-4318-8e59-c3e26b7f5c19/image.png",
+            altText: "Prompt Design in Vertex AI Skill Badge",
+            credlyUrl: "https://www.credly.com/badges/f441b5a5-d423-45fb-b5fc-70fab32c572d/public_url",
+        },
     ],
 
     deployments: [
